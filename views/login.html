@@ -1,0 +1,40 @@
+<%- include header %>
+<nav class="navbar navbar-default " role="navigation">
+   <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" 
+         data-target="#example-navbar-collapse">
+         <span class="sr-only">切换导航</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">LOO</a>
+   </div>
+   <div class="collapse navbar-collapse" id="example-navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+         <li><a href="/home">用户列表</a></li>
+      </ul>
+   </div>
+</nav>
+<div class="container container-div" >
+  <form class="form-regin" method="post">
+  <fieldset>
+    <h2 class="form-regin-heading" style="
+    text-align: center;color: #ffffff;">登陆</h2>
+    <label for="inputTel" class="sr-only">手机号</label>
+    <input type="tel" id="inputTel" class="form-control" placeholder="手机号" name="username" required autofocus ></input>
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" id="inputPassword" class="form-control" placeholder="密码" name="password" required>
+    <div id="regin-div">
+      <span class="text-span"> 
+        <a href="/register">没有账号，点击注册</a>
+      </span>
+      <span class="btn-span">  
+        <button class="btn btn-primary" type="submit" onclick="isTel()">登陆</button>
+       
+      </span>
+    </div>
+    </fieldset>
+  </form>
+</div>
+<%- include footer %>

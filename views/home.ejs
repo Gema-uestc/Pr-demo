@@ -1,0 +1,14 @@
+<%- include header %>
+<h1><%= user.name %>, 欢迎登录</h1>
+<a class="btn btn-warning" href="/logout">注销</a>
+<%= user.saying %>
+
+
+<% for(var i = 0;i < users.length;i++){ %>
+<li>
+<a href='http://<%= users[i] %>'><%= users[i].name %></br><%= users[i].saying %></a></br>
+ <button class="btn btn-default" id="list-btn" type="submit">关注</button>
+</li>
+<% } %>
+
+<%- include footer %>

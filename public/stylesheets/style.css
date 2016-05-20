@@ -1,0 +1,89 @@
+body{
+  background-color: #14a3cb;
+  font-family: "黑体";
+}
+.navbar-default{
+  background-color: #14a3cb;
+  border-color: #14a3cb;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Myriad Pro";
+}
+.start{
+  text-align: center;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+
+}
+.start>h1{
+  font-family: "Myriad Pro";
+  font-size: 50px;
+}
+.start>p{
+  font-size: 20px;
+}
+.start>#btn{
+  margin-top: 10%;
+
+}
+
+.btn{
+  border-radius:0;
+  box-shadow: 0 0 20px #55518F;
+  font-size: 15px;
+}
+.btn-primary{
+  background-color: #0c6f99;
+  border-color: #0c6f99;
+}
+.btn>a{
+  color: #ffffff;
+}
+.btn-span{
+  float: right;
+}
+.text-span>a{
+    color: #ffffff;
+}
+.form-control{
+  
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: #f6f6f6;
+}
+
+
+.container-div{
+  max-width: 400px;
+}
+#login-div{
+  margin-top: 25px;
+}
+/*regin*/
+#regin-div{
+  margin-top: 25px;
+
+}
+/*list*/
+.list-container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ffffff;
+  width: 750px;
+  margin-top: 30px;
+}
+#list-btn{
+  box-shadow: 0 0 0 #ffffff;
+  width: 100px;
+  border: 1px solid#14a3cb;
+  margin-top: 20px;
+}
